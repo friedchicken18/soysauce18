@@ -1,7 +1,15 @@
 <div class="row">
-        <div class="span4">
+    <body style="background-color:powderblue;">
+        <div>
                 <a href="/welcome/show/{key}">
-                        <img src="/pix/{who}.jpg" title="{who} plays {role}"/>
+                    <center><img src="/pix/{who}.jpg" title="{who} plays {role} {what}"/></center>
                 </a>
+        <br>
+            <br>
+            <center><font color="green" size="20">{who} plays {role}</font></center>
+            <br>
+            <br>
+            <header><center><font color="blue" size="15">"{what}"</font></center></header>
         </div>
+    </body>
 </div>
